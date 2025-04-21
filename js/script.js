@@ -9,9 +9,9 @@ function calcularPromedio() {
     
     if (resultadoPromedio >= 7) {
         document.writeln("promedio: "+ resultadoPromedio + " ¡Pasa de año!");
-      } else if (resultadoPormedio >= 3.5 && resultadoPromedio < 7) {
+      } else if (resultadoPromedio >= 3.5 && resultadoPromedio < 7) {
         document.writeln("promedio: " + resultadoPromedio + " Queda en suspenso.");
       } else {
-        document.writeln("promedio: "+  resultadoPromedio +" Pierde el año.");
+        document.writeln("promedio: "+  resultadoPromedio + " Pierde el año.");
       }
 }
